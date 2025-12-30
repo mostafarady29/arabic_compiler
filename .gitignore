@@ -1,0 +1,36 @@
+# Ignore compiled files
+*.o
+*.s
+*.out
+
+# Ignore executables (specific to our examples)
+hello
+factorial
+fibonacci
+comprehensive
+temp
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Debug files
+debug_*
